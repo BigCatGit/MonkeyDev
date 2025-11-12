@@ -71,7 +71,7 @@
 			<key>OTHER_CFLAGS</key>
 			<string>-DTHEOS_INSTANCE_NAME=&quot;\&quot;___PACKAGENAME___\&quot;&quot;</string>
 			<key>HEADER_SEARCH_PATHS</key>
-			<string>$(MonkeyDevTheosPath)/vendor/include/**</string>
+			<string>$(MonkeyDevTheosPath)/vendor/include/** $(SDKROOT)/System/Library/SubFrameworks</string>
 			<key>LIBRARY_SEARCH_PATHS</key>
 			<string>$(MonkeyDevTheosPath)/vendor/lib/**</string>
 			<key>MonkeyDevPath</key>
@@ -79,7 +79,7 @@
 			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 			<string>8.0</string>
 			<key>FRAMEWORK_SEARCH_PATHS</key>
-			<string>$(MonkeyDevPath)/frameworks/** $(MonkeyDevTheosPath)/vendor/lib</string>
+			<string>$(MonkeyDevPath)/frameworks/** $(MonkeyDevTheosPath)/vendor/lib $(SDKROOT)/System/Library/SubFrameworks</string>
 		</dict>
 		<key>SDK</key>
 		<string>iphoneos</string>
